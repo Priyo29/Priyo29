@@ -1,0 +1,19 @@
+Priyabrata Mondal (Priyo29)
+
+The stats collector in this repository (`today.py`, `cache/`, and the SVG
+element ids it rewrites) is adapted from the GitHub Stats Terminal Profile by
+Andrew Grant (Andrew6rant):
+
+    https://github.com/Andrew6rant/Andrew6rant
+
+That upstream project does not carry an explicit license file. It is published
+as a template and forking is enabled, but if you reuse this repository, keep
+this attribution and check with the original author before redistributing.
+
+Local changes to `today.py`:
+  - `age_data` is now re-justified on every run (upstream computes it but never
+    writes it back, so the Uptime row went stale)
+  - justify lengths retuned for this card's 60-column grid
+  - removed the Andrew6rant-specific archived-repository adjustment
+
+The ASCII art and the panel contents are original to this repository.
